@@ -1,0 +1,28 @@
+{
+  "platform-version": "2.2",
+  "product": {
+    "freshdesk": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/icon.svg"
+        }
+      },
+      "functions": {
+        "getBookmarkedTickets": {
+          "timeout": 5
+        },
+        "bookmarkTicket": {
+          "timeout": 5
+        },
+        "removeAgentsTicket": {
+          "timeout": 5
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": "12.13.0",
+    "fdk": "7.1.0"
+  }
+}
